@@ -1,2 +1,9 @@
 package: github.com/sasaxie/go-tron-api
-import: []
+import:
+- package: github.com/grpc-ecosystem/grpc-gateway
+  subpackages:
+  - protoc-gen-grpc-gateway
+  - protoc-gen-swagger
+- package: github.com/golang/protobuf
+  subpackages:
+  - protoc-gen-go

@@ -1,0 +1,13 @@
+hash: 12035fdc1f6192a2510caa5f245a927e6e904c5be546af078007bb0ed6fd693d
+updated: 2018-07-23T12:05:00.575383+08:00
+imports:
+- name: github.com/golang/protobuf
+  version: 3a3da3a4e26776cc22a79ef46d5d58477532dede
+  subpackages:
+  - protoc-gen-go
+- name: github.com/grpc-ecosystem/grpc-gateway
+  version: 5948c50af05b7b4a4417c40b6768ffedd3b866dd
+  subpackages:
+  - protoc-gen-grpc-gateway
+  - protoc-gen-swagger
+testImports: []
